@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Unit & Door Co. — Built-In Excellence</title>
+    <meta name="description" content="Joe Unit & Door Co. — Custom kitchen units, bedroom wardrobes, doors, ceilings and house plans. Based in Alexandra, Johannesburg.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>Joe Unit & Door Co.</h1>
+                    <span class="slogan">Built-In Excellence</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Transform Your Space with Custom Craftsmanship</h1>
+                    <p>From kitchen units to complete house plans, we bring precision and creativity to every project in Alexandra, Johannesburg.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                        <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card">
+                        <div class="card-header">
+                            <div class="avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h4>Johannes Nkoana</h4>
+                                <p>Owner & Capenter</p>
+                            </div>
+                        </div>
+                        <p>"With over 30+ years of experience, I take pride in creating functional, beautiful spaces that stand the test of time."</p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="number">1000+</span>
+                                <span class="label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="number">30+</span>
+                                <span class="label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">From concept to completion, we handle every detail with precision</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Kitchen Units</h3>
+                    <p>Custom-built kitchens designed for your space, style, and functionality needs.</p>
+                    <ul>
+                        <li>Custom cabinetry</li>
+                        <li>Countertop installation</li>
+                        <li>Storage solutions</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3>Bedroom Wardrobes</h3>
+                    <p>Built-in wardrobes that maximize space and complement your bedroom design.</p>
+                    <ul>
+                        <li>Sliding door systems</li>
+                        <li>Custom interiors</li>
+                        <li>Space optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Doors & Ceilings</h3>
+                    <p>Quality interior doors and decorative ceilings to enhance your home's aesthetic.</p>
+                    <ul>
+                        <li>Interior doors</li>
+                        <li>Gypsum ceilings</li>
+                        <li>Cornice work</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>House Plans</h3>
+                    <p>Practical floor plans and sketches to visualize and plan your project effectively.</p>
+                    <ul>
+                        <li>Space planning</li>
+                        <li>Concept sketches</li>
+                        <li>Layout optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <p class="section-subtitle">Click on any project to see more photos from that gallery</p>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchens</button>
+                <button class="filter-btn" data-filter="wardrobe">Wardrobes</button>
+                <button class="filter-btn" data-filter="doors">Doors & Ceilings</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolio-container">
+                <!-- Portfolio items will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <p class="section-subtitle">Hear from homeowners who trusted us with their projects</p>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Johannes transformed our outdated kitchen into a beautiful, functional space. His attention to detail and craftsmanship exceeded our expectations."</p>
+                    <div class="client">
+                        <strong>Sarah M.</strong>
+                        <span>Alexandra</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The built-in wardrobes Johannes created for our bedroom solved all our storage problems. Professional, punctual, and high-quality work."</p>
+                    <div class="client">
+                        <strong>Thomas B.</strong>
+                        <span>Johannesburg</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"From the initial consultation to the final installation, working with Joe Unit & Door Co. was a seamless experience. Highly recommended!"</p>
+                    <div class="client">
+                        <strong>Patricia K.</strong>
+                        <span>Alexandra</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2>Our Process</h2>
+            <p class="section-subtitle">How we bring your vision to life, step by step</p>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We discuss your needs, preferences, and budget to understand your vision.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Design & Planning</h3>
+                    <p>We create sketches and plans to visualize the project before starting.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Material Selection</h3>
+                    <p>We help you choose the right materials that fit your style and budget.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Capenter</h3>
+                    <p>Our skilled team brings the design to life with precision and care.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Final Installation</h3>
+                    <p>We install the finished product, ensuring everything meets your expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to transform your space? Contact us for a free consultation and quote.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Polokwane, Johannesburg and The Surrounding </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p id="contact-phone">+27 63 216 1969</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p id="contact-email">joeunits@smartdesigns.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" id="whatsapp-link" class="social-link whatsapp">
+                            <i class="fa-bed fa-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                        <a href="#" id="email-link" class="social-link email">
+                            <i class="fas fa-envelope"></i>
+                            Email
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Request a Quote</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service">
+                                <option value="">Select a service</option>
+                                <option value="kitchen">Kitchen Units</option>
+                                <option value="wardrobe">Bedroom Wardrobes</option>
+                                <option value="doors">Doors & Ceilings</option>
+                                <option value="plans">House Plans</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" rows="5" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Joe Unit & Door Co.</h3>
+                    <p>Built-In Excellence — From Floor Plan to Final Door</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Polokwane, Johannesburg</p>
+                        <p><i class="fas fa-phone"></i> +27 63 216 1969</p>
+                        <p><i class="fas fa-envelope"></i> joeunits@smartdesigns.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Kitchen Units</a></li>
+                        <li><a href="#services">Bedroom Wardrobes</a></li>
+                        <li><a href="#services">Doors & Ceilings</a></li>
+                        <li><a href="#services">House Plans</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Joe Unit & Door Co. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <button class="close-lightbox">&times;</button>
+            <div class="lightbox-main">
+                <button class="lightbox-nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <img id="lightbox-img" src="" alt="" class="lightbox-img">
+                <button class="lightbox-nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+            <div class="lightbox-thumbnails" id="lightbox-thumbnails">
+                <!-- Thumbnails will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
